@@ -1,27 +1,71 @@
-# AngularBoilerplate3
+<p align="center">
+  <img src="https://api.iconify.design/logos:angular-icon.svg" alt="Angular brand" width="100" height="100"/>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+<h1 align="center">Angular Boilerplate</h1>
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The Angular Boilerplate serves as a scaffolding tool for Angular developers, offering a well-organized and feature-rich starting point for building modern web applications. By leveraging industry best practices and established patterns, developers can expedite the development process and deliver high-quality Angular applications with confidence.
 
-## Code scaffolding
+## ⚗️ Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular 17](https://angular.io/docs)
+- [Standalone components](https://angular.io/guide/standalone-components)
+- [Signals](https://angular.io/guide/signals)
+- [Lazy loading](https://angular.io/guide/lazy-loading-ngmodules)
+- [I18n](https://ngneat.github.io/transloco/)
+- [TailwindCSS](https://tailwindcss.com/)
+- OS/Light/Dark themes
+- Lightweight, fast, and built using state-of-the-art technology.
 
-## Build
+## ✅ Ready-to-use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### UI Frameworks
 
-## Running unit tests
+- [TailwindCSS](https://tailwindcss.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Icons
 
-## Running end-to-end tests
+- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/).
+- [@iconify/tailwind](https://docs.iconify.design/usage/css/tailwind/) - Pure CSS icons.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ⚙ Prerequisites
 
-## Further help
+- Node.js ([^16.14.0 || ^18.10.0](https://angular.io/guide/versions)): <https://nodejs.org/en/>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🏹 Start development
+
+> Clone this repository to start with a clean git history.
+
+---
+### Install dependencies
+
+```sh
+npm install 
+```
+
+### Run project
+
+```sh
+npm dev
+```
+
+## 📝 Checklist
+
+Please review this checklist and modify it as necessary to meet your project requirements.
+
+- [ ] Change the title in `src/index.html` and the favicon in `src/favicon.ico` to match your project.
+- [ ] Clean up the README file to provide clear instructions about your project.
+- [ ] Modify the pages in the project to meet your specific requirements.
+
+
+## 🧙‍♂️ Commands
+
+| Command         | Description                                              | npm                     | yarn                 |
+| --------------- | -------------------------------------------------------- | ----------------------- | -------------------- | -------------------- |
+| `dev`           | Starts the development server                            | `npm run dev`           | `yarn dev`           |
+| `dev:host`      | Starts the development server with a custom host         | `npm run dev`           | `yarn dev`           |
+| `build`         | Builds the production code                               | `npm run build`         | `yarn build`         |
+| `watch`         | Builds the production code and watches for changes       | `npm run watch`         | `yarn watch`         |
+| `test`          | Runs the unit tests                                      | `npm run test`          | `yarn test`          |

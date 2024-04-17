@@ -63,7 +63,7 @@ Please review this checklist and modify it as necessary to meet your project req
 ## 🧙‍♂️ Commands
 
 | Command         | Description                                              | npm                     | yarn                 |
-| --------------- | -------------------------------------------------------- | ----------------------- | -------------------- | -------------------- |
+| --------------- | -------------------------------------------------------- | ----------------------- | -------------------- |
 | `dev`           | Starts the development server                            | `npm run dev`           | `yarn dev`           |
 | `dev:host`      | Starts the development server with a custom host         | `npm run dev`           | `yarn dev`           |
 | `build`         | Builds the production code                               | `npm run build`         | `yarn build`         |
